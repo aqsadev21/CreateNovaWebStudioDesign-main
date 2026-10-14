@@ -40,7 +40,7 @@ button { cursor: pointer; }
 .menu-button, .mobile-order { display: none; }
 
 .hero { position: relative; min-height: 560px; color: white; overflow: hidden; display: flex; align-items: center; }
-.hero-bg { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(10,8,6,.91) 0%, rgba(10,8,6,.7) 36%, rgba(10,8,6,.15) 69%, rgba(10,8,6,.24) 100%), url('https://images.unsplash.com/photo-1558220829-4694a46bb01f?auto=format&fit=crop&w=1800&q=88'); background-size: cover; background-position: center 48%; transform: scale(1.01); }
+.hero-bg { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(10,8,6,.91) 0%, rgba(10,8,6,.7) 36%, rgba(10,8,6,.15) 69%, rgba(10,8,6,.24) 100%), url('https://images.unsplash.com/photo-1558220829-4694a46bb01f?auto=format&fit=crop&w=1800&q=88'); background-color: #100c09; background-size: cover, auto 150%; background-repeat: no-repeat; background-position: center, right 10% bottom; }
 .hero-content { position: relative; z-index: 1; padding-top: 82px; }
 .eyebrow { margin: 0 0 10px; text-transform: uppercase; letter-spacing: .18em; font-size: 10px; font-weight: 700; color: var(--copper-dark); }
 .eyebrow.light { color: #f0d4be; }
@@ -172,7 +172,7 @@ footer { padding: 34px 0 17px; color: white; background: var(--dark); }
   .search-button, .order-button { display: none; }
   .menu-button { display: grid; }
   .hero { min-height: 570px; align-items: flex-end; }
-  .hero-bg { background-image: linear-gradient(180deg, rgba(8,7,6,.17) 0%, rgba(8,7,6,.45) 42%, rgba(8,7,6,.94) 100%), url('https://images.unsplash.com/photo-1558220829-4694a46bb01f?auto=format&fit=crop&w=1000&q=88'); background-position: 55% center; }
+  .hero-bg { background-image: linear-gradient(180deg, rgba(8,7,6,.17) 0%, rgba(8,7,6,.45) 42%, rgba(8,7,6,.94) 100%), url('https://images.unsplash.com/photo-1558220829-4694a46bb01f?auto=format&fit=crop&w=1000&q=88'); background-size: cover; background-position: center bottom; }
   .hero-content { padding: 150px 0 54px; }
   h1 { font-size: clamp(42px, 12vw, 58px); }
   .hero-copy { max-width: 390px; margin-block: 18px 24px; font-size: 13px; line-height: 1.65; }

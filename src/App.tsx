@@ -88,6 +88,7 @@ export default function App() {
   const addItem = (index: number) => {
     setCart((current) => ({ ...current, [index]: (current[index] || 0) + 1 }));
     setOrderDone(false);
+    setPanel("cart");
   };
   const changeQuantity = (index: number, amount: number) => {
     setCart((current) => {
@@ -284,7 +285,7 @@ export default function App() {
                 const item = menu[index];
                 return <div className="cart-item" key={item.title}>
                   <img src={item.image} alt="" />
-                  <div><h3>{item.title}</h3><p>${item.price.toFixed(2)}</p></div>
+                  <div><h3>{item.title}</h3><p>{quantity} × ${item.price.toFixed(2)} · ${(item.price * quantity).toFixed(2)}</p></div>
                   <div className="quantity">
                     <button type="button" onClick={() => changeQuantity(index, -1)} aria-label={`Remove one ${item.title}`}><Icon name="minus" size={14} /></button>
                     <span>{quantity}</span>
