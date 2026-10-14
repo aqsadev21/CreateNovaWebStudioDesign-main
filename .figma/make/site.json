@@ -1,0 +1,10 @@
+{
+  "description": "Nova Web Studio is a professional web platform offering interactive experiences like quizzes, task management, and collaborative tools, designed for seamless user engagement.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
